@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(56, 53, 53);
+}
+
+.codeC {
+    text-align: center;
+    font-size: 700%;
+}
+
+.container {
+    text-align: center;
+    border:2px solid black;
+    border-radius:3%;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+
+.container form p {
+    color: aliceblue;
+    font-size: 23px;
+}
