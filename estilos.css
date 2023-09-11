@@ -1,10 +1,11 @@
 body {
-    background-color: rgb(56, 53, 53);
+    background-color: rgb(155, 214, 45);
 }
 
 .codeC {
     text-align: center;
     font-size: 700%;
+    margin-top: 50px;
 }
 
 .container {
@@ -20,6 +21,9 @@ body {
 }
 
 .container form p {
-    color: aliceblue;
     font-size: 23px;
+}
+#btn {
+    font-size:25px;
+    margin-top: 15px;
 }
