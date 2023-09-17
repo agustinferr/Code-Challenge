@@ -1,11 +1,15 @@
 body {
-    background-color: rgb(155, 214, 45);
+    background-color: #027A79;
+    overflow: hidden;
 }
-
+#titulo{
+    width: 300px;
+}
 .codeC {
     text-align: center;
     font-size: 700%;
     margin-top: 50px;
+    
 }
 
 .container {
@@ -14,7 +18,7 @@ body {
     border-radius:3%;
     margin-left: 35%;
     margin-right: 35%;
-    
+    background-color: rgb(155, 214, 45) ;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 40px;
@@ -24,6 +28,34 @@ body {
     font-size: 23px;
 }
 #btn {
-    font-size:25px;
+    font-size:20px;
     margin-top: 15px;
+}   
+
+@keyframes animacion {
+    0% {
+        color:rgb(155, 214, 45);
+    }
+    20%{
+        color:rgb(163, 240, 19);
+    }
+    40%{
+       
+        color:rgb(155, 214, 45);
+    }
+    50%{
+         transform: scale(1.1);
+    }
+    60% {
+        color:rgb(163, 240, 19);
+    }
+    80%{
+        color: rgb(155, 214, 45);
+    }
+    100%{
+        color:rgb(163, 240, 19);
+    }
+}
+.codeC{
+    animation: animacion 2s ease infinite;
 }
