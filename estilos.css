@@ -9,7 +9,7 @@ body {
     text-align: center;
     font-size: 700%;
     margin-top: 50px;
-    
+    color:rgb(163, 240, 19);
 }
 
 .container {
@@ -30,32 +30,14 @@ body {
 #btn {
     font-size:20px;
     margin-top: 15px;
+    border:solid black 1px;
 }   
 
 @keyframes animacion {
-    0% {
-        color:rgb(155, 214, 45);
-    }
-    20%{
-        color:rgb(163, 240, 19);
-    }
-    40%{
-       
-        color:rgb(155, 214, 45);
-    }
     50%{
          transform: scale(1.1);
     }
-    60% {
-        color:rgb(163, 240, 19);
-    }
-    80%{
-        color: rgb(155, 214, 45);
-    }
-    100%{
-        color:rgb(163, 240, 19);
-    }
 }
 .codeC{
-    animation: animacion 2s ease infinite;
+    animation: animacion 1.5s linear infinite;
 }
